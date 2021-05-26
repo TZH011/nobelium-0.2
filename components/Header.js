@@ -23,7 +23,7 @@ const NavBar = () => {
                 className="block ml-4 text-black dark:text-gray-50 nav"
               >
                 <Link href={link.to}>
-                  <a target="_blank">{link.name}</a>
+                  <a>{link.name}</a>
                 </Link>
               </li>
             )
